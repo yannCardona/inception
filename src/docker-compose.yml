@@ -42,14 +42,14 @@ volumes:
     driver: local
     driver_opts:
       type: none
-      device: /Users/yann/data/db_data
+      device: /home/yann/data/db_data
       o: bind
 
   wordpress_data:
     driver: local
     driver_opts:
       type: none
-      device: /Users/yann/data/wp_data
+      device: /home/yann/data/wp_data
       o: bind
 
 networks:
